@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mainContent status = "ok">
+
+        <data>
+            <text>Hi fellow VITian,</text>
+        </data>
+
+        <data>
+            <text>Are you struggling to find good notes for any subject?</text>
+        </data>
+
+        <data>
+            <text>No need to worry, we at <![CDATA[<span>CheatSheet</span>]]> have all the resources on all subjects in VIT and our community is still growing. You can upload your notes helping your peers or refer to the notes uploaded by others. Anytime you got a problem just search and find the notes related to that subject and voila! you have the free notes rightaway.</text>
+        </data>
+
+        <data>
+            <text><![CDATA[<a href="signup.html">Signup</a> or <a href="login.html">Login</a> to be a part of this community]]></text>
+        </data>
+
+
+</mainContent>

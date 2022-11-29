@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar{
+    width: 0.5vw;
+}
+html::-webkit-scrollbar-track{
+    background: #2B2B2B;
+}
+html::-webkit-scrollbar-track:hover{
+    background: #303030;
+}
+html::-webkit-scrollbar-thumb{
+    background:#ffac473e;
+    border-radius: 20px;
+}
+html::-webkit-scrollbar-thumb:hover{
+    background:#ffac47;
+    border-radius: 20px;
+}
+
+body{
+    background-color: #1D1D1D;
+    color: rgb(229, 229, 229);
+    padding: 30px;
+}
+
+.formImage1{
+    width: 25%;
+    position: absolute;
+    top: 22%;
+    right: 10%;
+}
+
+.formImage2{
+    width: 30%;
+    position: absolute;
+    bottom: -80%;
+    right: 10%;
+    transform: scaleX(-1);
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+.h1Colored{
+    color: #FFAD47;
+}
+
+
+fieldset{
+    padding: 2rem;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+legend{
+    color: #FFAD47;
+}
+
+.inputFields{
+    margin: 1em;
+}
+
+input[type = text], input[type = email], textarea, select, input[type = tel], input[type = date], input[type = url], input[type = password]{
+    padding: 7px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #2B2B2B;
+    width: 25%;
+    color: white;
+}
+input[type = tel]{
+    width: 18%;
+}
+textarea{
+    width: 25%;
+}
+
+#PhPrefixes{
+    width: auto;
+    margin-right: 10px;
+}
+.coursesDiv{
+    display: flex;
+    flex-direction: column;
+}
+.coursesDiv div{
+    margin: 5px;
+}
+.btn, input::file-selector-button{
+    background-color: #FFAD47;
+    padding: 5px 30px;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 1em;
+    color: white;
+}
+.btn:hover, input::file-selector-button:hover{
+    background-color: #ff991d;
+}
+
+input::file-selector-button{
+    margin-right: 10px;
+}
+
+.buttons{
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
